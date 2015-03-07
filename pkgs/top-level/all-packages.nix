@@ -23,6 +23,7 @@ let
   callPackage = pkgs.lib.callPackageWith (pkgs // pkgs.xlibs // self);
 
   self = rec {
+    BasiliskII = callPackage ../misc/emulators/BasiliskII { };
     cmatrix = callPackage ../games/cmatrix { };
     hollywood = callPackage ../games/hollywood { };
     realvnc = callPackage ../applications/networking/remote/realvnc { };
