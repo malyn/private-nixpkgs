@@ -26,6 +26,7 @@ let
     cmatrix = callPackage ../games/cmatrix { };
     hollywood = callPackage ../games/hollywood { };
     realvnc = callPackage ../applications/networking/remote/realvnc { };
+    tin = callPackage ../applications/networking/newsreaders/tin { };
   };
 in
 self
