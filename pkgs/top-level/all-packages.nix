@@ -26,6 +26,7 @@ let
     BasiliskII = callPackage ../misc/emulators/BasiliskII { };
     cmatrix = callPackage ../games/cmatrix { };
     hollywood = callPackage ../games/hollywood { };
+    powerline-fonts = callPackage ../data/fonts/powerline-fonts { };
     realvnc = callPackage ../applications/networking/remote/realvnc { };
     SheepShaver = callPackage ../misc/emulators/SheepShaver { };
     tin = callPackage ../applications/networking/newsreaders/tin { };
